@@ -1,0 +1,10 @@
+alg: "matd3"
+
+alg_args:
+    "solver_variant": "corrected_derivative"
+    "legacy_raw_actor": False
+    "solver_rng_mode": "independent"
+    "policy_lrate": 1.0e-4
+    "value_lrate": 1.0e-4
+    "gaussian_policy": False
+    "action_enforcebound": True

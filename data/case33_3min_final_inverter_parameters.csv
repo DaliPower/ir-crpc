@@ -1,0 +1,7 @@
+﻿agent_id,bus_id,zone,s_max_mva,synthetic_reference_peak_mw,action_scale,capacity_source,nighttime_reactive_power
+0,12,zone1,3.304963976407345,2.754136647006121,0.8,synthetic_training_peak,enabled
+1,17,zone1,3.304963976407345,2.754136647006121,0.8,synthetic_training_peak,enabled
+2,21,zone2,3.2112839704345215,2.6760699753621013,0.8,synthetic_training_peak,enabled
+3,24,zone3,5.385914401971031,4.488262001642526,0.8,synthetic_training_peak,enabled
+4,28,zone4,0.5012272286098252,0.41768935717485434,0.8,synthetic_training_peak,enabled
+5,32,zone4,0.5012272286098252,0.41768935717485434,0.8,synthetic_training_peak,enabled

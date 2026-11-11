@@ -1,0 +1,20 @@
+# MAPDN CTDE/shared-RNN adaptation; not a reproduction of the original benchmark.
+alg: "matd3_reference"
+alg_args:
+    solver_variant: "matd3_reference_shared_rnn"
+    legacy_raw_actor: False
+    policy_lrate: 1.0e-4
+    value_lrate: 1.0e-4
+    gaussian_policy: False
+    action_enforcebound: True
+    entr: 0.0
+    normalize_advantages: False
+    target: True
+    target_lr: 0.005
+    policy_delay: 2
+    target_policy_noise: 0.2
+    target_noise_clip: 0.5
+    exploration_noise: 0.1
+    # Update cadence: value_update_epochs critic steps per behavior trigger;
+    # actor and both targets update every policy_delay completed critic steps.
+    # policy_update_epochs, target_update_freq and double_q are not used here.

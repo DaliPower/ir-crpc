@@ -1,0 +1,11 @@
+# Historical solver mechanism only; this does not restore the old environment/protocol.
+alg: "matd3_legacy"
+alg_args:
+    solver_variant: "legacy_raw_actor"
+    legacy_raw_actor: True
+    # Historical exploration and TD-target samples share the global Torch RNG.
+    solver_rng_mode: "global_legacy"
+    policy_lrate: 1.0e-4
+    value_lrate: 1.0e-4
+    gaussian_policy: False
+    action_enforcebound: True
